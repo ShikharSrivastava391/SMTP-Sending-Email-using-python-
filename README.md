@@ -29,3 +29,18 @@ EMAIL_PASSWORD=abcdefghijklmnop (Google will show you a 16-character password (e
 
 Same thing do it for Outlook
 
+
+START THE CODE BY WRITING :
+PYTHON SERVER.PY
+
+curl --location 'http://127.0.0.1:8000/send_mail' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "info": {
+        "email": "EMAIL ADDRESS",
+        "user_name": "NAME",
+        "web_url": "ANY URL TO SHARE ON MAIL ",
+        "org_name": "",
+        "subject": "ANY SUBJECT"
+    }
+}
