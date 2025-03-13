@@ -1,5 +1,5 @@
 # SMTP-Sending-Email-using-python
-This project is a Python-based SMTP email sender that allows users to send emails using Gmail's SMTP server. It supports both plain text and HTML emails and includes error logging using a custom logger.
+This project is a Python-based SMTP email sender that allows users to send emails using Gmail's/Outlook SMTP server. It supports both plain text and HTML emails and includes error logging using a custom logger.
 
 Features:
 ✅ Send emails with both plain text and HTML formats.
@@ -26,4 +26,6 @@ EMAIL_SMTP_SERVER=smtp.gmail.com
 EMAIL_PORT=587
 EMAIL_SENDER_EMAIL=xxxx@gmail.com(email from where you generated password)
 EMAIL_PASSWORD=abcdefghijklmnop (Google will show you a 16-character password (e.g., abcd efgh ijkl mnop).)
+
+Same thing do it for Outlook
 
