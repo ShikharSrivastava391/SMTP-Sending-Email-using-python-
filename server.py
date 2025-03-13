@@ -113,6 +113,3 @@ def send_mail(to=None, subject=None, html=None, __data=None):
         print("inside catch of send_mail")
         GirikonSendMailLog.error(f"Error in send_mail Error:GSM004\t {e}")
         return None
-
-# if __name__ == "__main__":
-#     send_mail(to="shikhar.srivastava@girikon.com", subject="Test Email", html="This is a test email sent from Python")
